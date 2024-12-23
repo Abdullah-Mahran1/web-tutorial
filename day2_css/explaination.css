@@ -1,0 +1,40 @@
+/*  Styling Language */
+/* 1) css syntax: one Selector {propeory: value;} */
+    /* link html element */
+    /* Selectors: element - .class - #id (one id per tag) or everything (*) */
+/* 2) selectors cobinations */
+    /* selector1 AND selector2 -- selector1.selector2 */
+    /* selector1 ParentOf selector2 -- selector1 selector2 (element with selector 2 will change)*/
+    /* 2 selectors with common properties .name1, .name2 {properties in common} */
+/* 3) select colors: https://www.w3schools.com/colors/colors_picker.asp */
+/* 4) height, width, padding, margin, border (explain with image) */
+/* 5) font-size, border-radius, cursor, font-weight, font-family, text-align */
+
+h1{
+    color: red;
+}
+
+/* 2) selectors cobinations */
+
+h2.section-title{
+/* 3) select colors: https://www.w3schools.com/colors/colors_picker.asp */
+    color: #00ff00;
+    background-color: #0000ff;
+/* 4) height, width, padding, margin, border */
+    height: 100px; /* or 10% or 1em (parent fontsize) or 1rem (browser fontsize) */
+    width: 100px;
+    padding: 10px 10px 10px 10px; /* (top right bottom left) or (Horizontal vertical) or (all)*/
+    margin: 10px;
+    border: 1px solid black;
+}
+
+h2 form{
+color: #0000ff;
+}
+
+p{
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    padding: 0 10px;
+}
