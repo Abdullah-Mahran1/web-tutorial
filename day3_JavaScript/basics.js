@@ -1,22 +1,25 @@
-//1) Variables and their types
-//2) Arithmetic and Boolean Operations
-//3) If-Else Statements
-//4) For & While Loops
-//5) Functions
-//6) Libraries
+    //1) Variables and their types
+    //2) Arithmetic and Boolean Operations
+    //3) If-Else Statements
+    //4) For & While Loops
+    //5) Functions
+    //6) Libraries
 
 
 //1) Variables and their types
-let name = "John"; // String
+let name1 = "John"; // String
+console.log(typeof name1);
 let age = 25; // Number
 let isStudent = true; // Boolean
 let hobbies = ["reading", "coding", "sports"]; // Array
-let person = {firstName: "Jane", lastName: "Doe"}; // Object
+let person = {firstName: "Jane", lastName: "Doe"}; //  
+const name2 = "John"; // constant String
 
 // 2) Arithmetic and Boolean Operations
 let sum = 10 + 5; // Addition
 let difference = 10 - 5; // Subtraction
 let product = 10 * 5; // Multiplication
+let power = Math.pow(10, 2); // Power operation (10^2)
 let quotient = 10 / 5; // Division
 let remainder = 10 % 3; // Modulus
 
@@ -54,8 +57,13 @@ while (count < 5) {
 }
 
 //5) Functions
-function greet(name) {
-    return "Hello, " + name + "!";
+function greet() {
+    return "Hello World!";
+}
+
+function addNumers(num1, num2) {
+    result = num1 + num2;
+    return "num1 + num2 = " + result + "!";
 }
 
 console.log(greet("Alice"));
@@ -67,4 +75,5 @@ let roundedNum = Math.round(4.7); // Rounds 4.7 to 5
 
 // Using Date library
 let today = new Date(); // Creates a new date object with the current date and time
+let power2 = Math.pow(10, 2);
 console.log(today.toDateString()); // Prints the date in a readable format

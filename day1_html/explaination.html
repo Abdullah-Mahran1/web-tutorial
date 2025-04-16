@@ -15,12 +15,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Balah el Shaam</title>
-    <link rel="stylesheet" href="../day2_css/explaination-code.css">
+    <title>Abdullah Mahran - 70672800</title>
+    <!-- <link rel="stylesheet" href="../day2_css/explaination-code.css"> -->
 
 </head>
 <body>
 <!-- 2) div, h1, h2, h3, p, a -->
+ 
     <div>
         <h1>Balah el Shaam Restaurant Menu</h1>
         <p>Find the inner happeniess (stomach happeniess)</p>
@@ -100,13 +101,23 @@
         </div>
         
         <div>
-<!-- 6) form, label, input, select -->
-
+            <!-- 6) form, label, input, select -->
             <h2>Rate Us!</h2>
             <form>
+                
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name"><br><br>
                 <label for="dish">Rating:</label>
+                <h2>what did you order?</h2>
+                <label for="order">What did you order?</label><br>
+                <input type="radio" id="appetizer" name="order" value="appetizer">
+                <label for="appetizer">Appetizer</label><br>
+                <input type="radio" id="main_course" name="order" value="main_course">
+                <label for="main_course">Main Course</label><br>
+                <input type="radio" id="dessert" name="order" value="dessert">
+                <label for="dessert">Dessert</label><br>
+                <input type="radio" id="beverage" name="order" value="beverage">
+                <label for="beverage">Beverage</label><br>
                 <select id="rating" name="Rating">
                     <option value="1">Very Bad</option>
                     <option value="2">Bad</option>
@@ -117,6 +128,7 @@
                 <!-- 7) br, button, audio,  iframe (Copied from youtube share button)-->
                 <br><br>
                 <button type="submit">Submit</button>
+            
             </form>
         </div>
         
